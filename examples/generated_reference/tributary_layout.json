@@ -1,0 +1,1876 @@
+{
+  "config": {
+    "channel_num_snakes": 8,
+    "manifold_length": 120.0,
+    "manifold_reduction": 0.0,
+    "ladder_width": 2.0,
+    "feed_dump_offset": 18.0,
+    "tributary_offset": 28.0,
+    "feed_diameter": 8.0,
+    "dump_diameter": 8.0,
+    "snake_width": 2.0,
+    "d_snake_m1": 10.0,
+    "d_snake_m2": 10.0,
+    "d_ladder_m1": 10.0,
+    "d_ladder_m2": 10.0,
+    "channel_depth": 1.0,
+    "top_bottom_feed_left_shift": true,
+    "pairing_mode": "y_aligned_physical"
+  },
+  "circles": [
+    {
+      "id": "feed_0",
+      "role": "feed",
+      "center": {
+        "x": -4.0,
+        "y": 45.0
+      },
+      "radius": 4.0,
+      "index": 0
+    },
+    {
+      "id": "feed_1",
+      "role": "feed",
+      "center": {
+        "x": 0.0,
+        "y": 30.0
+      },
+      "radius": 4.0,
+      "index": 1
+    },
+    {
+      "id": "feed_2",
+      "role": "feed",
+      "center": {
+        "x": 0.0,
+        "y": 15.0
+      },
+      "radius": 4.0,
+      "index": 2
+    },
+    {
+      "id": "feed_3",
+      "role": "feed",
+      "center": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "radius": 4.0,
+      "index": 3
+    },
+    {
+      "id": "feed_4",
+      "role": "feed",
+      "center": {
+        "x": 0.0,
+        "y": -15.0
+      },
+      "radius": 4.0,
+      "index": 4
+    },
+    {
+      "id": "feed_5",
+      "role": "feed",
+      "center": {
+        "x": 0.0,
+        "y": -30.0
+      },
+      "radius": 4.0,
+      "index": 5
+    },
+    {
+      "id": "feed_6",
+      "role": "feed",
+      "center": {
+        "x": -4.0,
+        "y": -45.0
+      },
+      "radius": 4.0,
+      "index": 6
+    },
+    {
+      "id": "dump_0",
+      "role": "dump",
+      "center": {
+        "x": 18.0,
+        "y": 52.5
+      },
+      "radius": 4.0,
+      "index": 0
+    },
+    {
+      "id": "dump_1",
+      "role": "dump",
+      "center": {
+        "x": 18.0,
+        "y": 37.5
+      },
+      "radius": 4.0,
+      "index": 1
+    },
+    {
+      "id": "dump_2",
+      "role": "dump",
+      "center": {
+        "x": 18.0,
+        "y": 22.5
+      },
+      "radius": 4.0,
+      "index": 2
+    },
+    {
+      "id": "dump_3",
+      "role": "dump",
+      "center": {
+        "x": 18.0,
+        "y": 7.5
+      },
+      "radius": 4.0,
+      "index": 3
+    },
+    {
+      "id": "dump_4",
+      "role": "dump",
+      "center": {
+        "x": 18.0,
+        "y": -7.5
+      },
+      "radius": 4.0,
+      "index": 4
+    },
+    {
+      "id": "dump_5",
+      "role": "dump",
+      "center": {
+        "x": 18.0,
+        "y": -22.5
+      },
+      "radius": 4.0,
+      "index": 5
+    },
+    {
+      "id": "dump_6",
+      "role": "dump",
+      "center": {
+        "x": 18.0,
+        "y": -37.5
+      },
+      "radius": 4.0,
+      "index": 6
+    },
+    {
+      "id": "dump_7",
+      "role": "dump",
+      "center": {
+        "x": 18.0,
+        "y": -52.5
+      },
+      "radius": 4.0,
+      "index": 7
+    },
+    {
+      "id": "snake_0",
+      "role": "snake",
+      "center": {
+        "x": 46.0,
+        "y": 58.0
+      },
+      "radius": 1.0,
+      "index": 0
+    },
+    {
+      "id": "ladder_0",
+      "role": "ladder",
+      "center": {
+        "x": 46.0,
+        "y": 50.75
+      },
+      "radius": 1.0,
+      "index": 0
+    },
+    {
+      "id": "snake_1",
+      "role": "snake",
+      "center": {
+        "x": 46.0,
+        "y": 43.5
+      },
+      "radius": 1.0,
+      "index": 1
+    },
+    {
+      "id": "ladder_1",
+      "role": "ladder",
+      "center": {
+        "x": 46.0,
+        "y": 36.25
+      },
+      "radius": 1.0,
+      "index": 1
+    },
+    {
+      "id": "snake_2",
+      "role": "snake",
+      "center": {
+        "x": 46.0,
+        "y": 29.0
+      },
+      "radius": 1.0,
+      "index": 2
+    },
+    {
+      "id": "ladder_2",
+      "role": "ladder",
+      "center": {
+        "x": 46.0,
+        "y": 21.75
+      },
+      "radius": 1.0,
+      "index": 2
+    },
+    {
+      "id": "snake_3",
+      "role": "snake",
+      "center": {
+        "x": 46.0,
+        "y": 14.5
+      },
+      "radius": 1.0,
+      "index": 3
+    },
+    {
+      "id": "ladder_3",
+      "role": "ladder",
+      "center": {
+        "x": 46.0,
+        "y": 7.25
+      },
+      "radius": 1.0,
+      "index": 3
+    },
+    {
+      "id": "snake_4",
+      "role": "snake",
+      "center": {
+        "x": 46.0,
+        "y": 0.0
+      },
+      "radius": 1.0,
+      "index": 4
+    },
+    {
+      "id": "ladder_4",
+      "role": "ladder",
+      "center": {
+        "x": 46.0,
+        "y": -7.25
+      },
+      "radius": 1.0,
+      "index": 4
+    },
+    {
+      "id": "snake_5",
+      "role": "snake",
+      "center": {
+        "x": 46.0,
+        "y": -14.5
+      },
+      "radius": 1.0,
+      "index": 5
+    },
+    {
+      "id": "ladder_5",
+      "role": "ladder",
+      "center": {
+        "x": 46.0,
+        "y": -21.75
+      },
+      "radius": 1.0,
+      "index": 5
+    },
+    {
+      "id": "snake_6",
+      "role": "snake",
+      "center": {
+        "x": 46.0,
+        "y": -29.0
+      },
+      "radius": 1.0,
+      "index": 6
+    },
+    {
+      "id": "ladder_6",
+      "role": "ladder",
+      "center": {
+        "x": 46.0,
+        "y": -36.25
+      },
+      "radius": 1.0,
+      "index": 6
+    },
+    {
+      "id": "snake_7",
+      "role": "snake",
+      "center": {
+        "x": 46.0,
+        "y": -43.5
+      },
+      "radius": 1.0,
+      "index": 7
+    },
+    {
+      "id": "ladder_7",
+      "role": "ladder",
+      "center": {
+        "x": 46.0,
+        "y": -50.75
+      },
+      "radius": 1.0,
+      "index": 7
+    },
+    {
+      "id": "snake_8",
+      "role": "snake",
+      "center": {
+        "x": 46.0,
+        "y": -58.0
+      },
+      "radius": 1.0,
+      "index": 8
+    }
+  ],
+  "branches": [
+    {
+      "id": "feed_to_snake_0",
+      "branch_type": "feed_to_snake",
+      "source_circle_id": "feed_0",
+      "target_circle_id": "snake_1",
+      "top": {
+        "p0": {
+          "x": 0.0,
+          "y": 49.0
+        },
+        "p1": {
+          "x": 10.0,
+          "y": 49.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 44.5
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 44.5
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 0.0,
+          "y": 41.0
+        },
+        "p1": {
+          "x": 10.0,
+          "y": 41.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 42.5
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 42.5
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": -4.0,
+          "y": 45.0
+        },
+        "p1": {
+          "x": 6.0,
+          "y": 45.0
+        },
+        "p2": {
+          "x": 36.0,
+          "y": 43.5
+        },
+        "p3": {
+          "x": 46.0,
+          "y": 43.5
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 0.0,
+          "y": 49.0
+        },
+        "source_bottom": {
+          "x": 0.0,
+          "y": 41.0
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": 44.5
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": 42.5
+        }
+      }
+    },
+    {
+      "id": "feed_to_snake_1",
+      "branch_type": "feed_to_snake",
+      "source_circle_id": "feed_1",
+      "target_circle_id": "snake_2",
+      "top": {
+        "p0": {
+          "x": 4.0,
+          "y": 34.0
+        },
+        "p1": {
+          "x": 14.0,
+          "y": 34.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 30.0
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 30.0
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 4.0,
+          "y": 26.0
+        },
+        "p1": {
+          "x": 14.0,
+          "y": 26.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 28.0
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 28.0
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 0.0,
+          "y": 30.0
+        },
+        "p1": {
+          "x": 10.0,
+          "y": 30.0
+        },
+        "p2": {
+          "x": 36.0,
+          "y": 29.0
+        },
+        "p3": {
+          "x": 46.0,
+          "y": 29.0
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 4.0,
+          "y": 34.0
+        },
+        "source_bottom": {
+          "x": 4.0,
+          "y": 26.0
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": 30.0
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": 28.0
+        }
+      }
+    },
+    {
+      "id": "feed_to_snake_2",
+      "branch_type": "feed_to_snake",
+      "source_circle_id": "feed_2",
+      "target_circle_id": "snake_3",
+      "top": {
+        "p0": {
+          "x": 4.0,
+          "y": 19.0
+        },
+        "p1": {
+          "x": 14.0,
+          "y": 19.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 15.5
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 15.5
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 4.0,
+          "y": 11.0
+        },
+        "p1": {
+          "x": 14.0,
+          "y": 11.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 13.5
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 13.5
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 0.0,
+          "y": 15.0
+        },
+        "p1": {
+          "x": 10.0,
+          "y": 15.0
+        },
+        "p2": {
+          "x": 36.0,
+          "y": 14.5
+        },
+        "p3": {
+          "x": 46.0,
+          "y": 14.5
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 4.0,
+          "y": 19.0
+        },
+        "source_bottom": {
+          "x": 4.0,
+          "y": 11.0
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": 15.5
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": 13.5
+        }
+      }
+    },
+    {
+      "id": "feed_to_snake_3",
+      "branch_type": "feed_to_snake",
+      "source_circle_id": "feed_3",
+      "target_circle_id": "snake_4",
+      "top": {
+        "p0": {
+          "x": 4.0,
+          "y": 4.0
+        },
+        "p1": {
+          "x": 14.0,
+          "y": 4.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 1.0
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 1.0
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 4.0,
+          "y": -4.0
+        },
+        "p1": {
+          "x": 14.0,
+          "y": -4.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -1.0
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -1.0
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "p1": {
+          "x": 10.0,
+          "y": 0.0
+        },
+        "p2": {
+          "x": 36.0,
+          "y": 0.0
+        },
+        "p3": {
+          "x": 46.0,
+          "y": 0.0
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 4.0,
+          "y": 4.0
+        },
+        "source_bottom": {
+          "x": 4.0,
+          "y": -4.0
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": 1.0
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": -1.0
+        }
+      }
+    },
+    {
+      "id": "feed_to_snake_4",
+      "branch_type": "feed_to_snake",
+      "source_circle_id": "feed_4",
+      "target_circle_id": "snake_5",
+      "top": {
+        "p0": {
+          "x": 4.0,
+          "y": -11.0
+        },
+        "p1": {
+          "x": 14.0,
+          "y": -11.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -13.5
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -13.5
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 4.0,
+          "y": -19.0
+        },
+        "p1": {
+          "x": 14.0,
+          "y": -19.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -15.5
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -15.5
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 0.0,
+          "y": -15.0
+        },
+        "p1": {
+          "x": 10.0,
+          "y": -15.0
+        },
+        "p2": {
+          "x": 36.0,
+          "y": -14.5
+        },
+        "p3": {
+          "x": 46.0,
+          "y": -14.5
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 4.0,
+          "y": -11.0
+        },
+        "source_bottom": {
+          "x": 4.0,
+          "y": -19.0
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": -13.5
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": -15.5
+        }
+      }
+    },
+    {
+      "id": "feed_to_snake_5",
+      "branch_type": "feed_to_snake",
+      "source_circle_id": "feed_5",
+      "target_circle_id": "snake_6",
+      "top": {
+        "p0": {
+          "x": 4.0,
+          "y": -26.0
+        },
+        "p1": {
+          "x": 14.0,
+          "y": -26.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -28.0
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -28.0
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 4.0,
+          "y": -34.0
+        },
+        "p1": {
+          "x": 14.0,
+          "y": -34.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -30.0
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -30.0
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 0.0,
+          "y": -30.0
+        },
+        "p1": {
+          "x": 10.0,
+          "y": -30.0
+        },
+        "p2": {
+          "x": 36.0,
+          "y": -29.0
+        },
+        "p3": {
+          "x": 46.0,
+          "y": -29.0
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 4.0,
+          "y": -26.0
+        },
+        "source_bottom": {
+          "x": 4.0,
+          "y": -34.0
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": -28.0
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": -30.0
+        }
+      }
+    },
+    {
+      "id": "feed_to_snake_6",
+      "branch_type": "feed_to_snake",
+      "source_circle_id": "feed_6",
+      "target_circle_id": "snake_7",
+      "top": {
+        "p0": {
+          "x": 0.0,
+          "y": -41.0
+        },
+        "p1": {
+          "x": 10.0,
+          "y": -41.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -42.5
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -42.5
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 0.0,
+          "y": -49.0
+        },
+        "p1": {
+          "x": 10.0,
+          "y": -49.0
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -44.5
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -44.5
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": -4.0,
+          "y": -45.0
+        },
+        "p1": {
+          "x": 6.0,
+          "y": -45.0
+        },
+        "p2": {
+          "x": 36.0,
+          "y": -43.5
+        },
+        "p3": {
+          "x": 46.0,
+          "y": -43.5
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 0.0,
+          "y": -41.0
+        },
+        "source_bottom": {
+          "x": 0.0,
+          "y": -49.0
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": -42.5
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": -44.5
+        }
+      }
+    },
+    {
+      "id": "dump_to_ladder_0",
+      "branch_type": "dump_to_ladder",
+      "source_circle_id": "dump_0",
+      "target_circle_id": "ladder_0",
+      "top": {
+        "p0": {
+          "x": 22.0,
+          "y": 56.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": 56.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 51.75
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 51.75
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 22.0,
+          "y": 48.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": 48.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 49.75
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 49.75
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 18.0,
+          "y": 52.5
+        },
+        "p1": {
+          "x": 28.0,
+          "y": 52.5
+        },
+        "p2": {
+          "x": 36.0,
+          "y": 50.75
+        },
+        "p3": {
+          "x": 46.0,
+          "y": 50.75
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 22.0,
+          "y": 56.5
+        },
+        "source_bottom": {
+          "x": 22.0,
+          "y": 48.5
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": 51.75
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": 49.75
+        }
+      }
+    },
+    {
+      "id": "dump_to_ladder_1",
+      "branch_type": "dump_to_ladder",
+      "source_circle_id": "dump_1",
+      "target_circle_id": "ladder_1",
+      "top": {
+        "p0": {
+          "x": 22.0,
+          "y": 41.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": 41.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 37.25
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 37.25
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 22.0,
+          "y": 33.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": 33.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 35.25
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 35.25
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 18.0,
+          "y": 37.5
+        },
+        "p1": {
+          "x": 28.0,
+          "y": 37.5
+        },
+        "p2": {
+          "x": 36.0,
+          "y": 36.25
+        },
+        "p3": {
+          "x": 46.0,
+          "y": 36.25
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 22.0,
+          "y": 41.5
+        },
+        "source_bottom": {
+          "x": 22.0,
+          "y": 33.5
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": 37.25
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": 35.25
+        }
+      }
+    },
+    {
+      "id": "dump_to_ladder_2",
+      "branch_type": "dump_to_ladder",
+      "source_circle_id": "dump_2",
+      "target_circle_id": "ladder_2",
+      "top": {
+        "p0": {
+          "x": 22.0,
+          "y": 26.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": 26.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 22.75
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 22.75
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 22.0,
+          "y": 18.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": 18.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 20.75
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 20.75
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 18.0,
+          "y": 22.5
+        },
+        "p1": {
+          "x": 28.0,
+          "y": 22.5
+        },
+        "p2": {
+          "x": 36.0,
+          "y": 21.75
+        },
+        "p3": {
+          "x": 46.0,
+          "y": 21.75
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 22.0,
+          "y": 26.5
+        },
+        "source_bottom": {
+          "x": 22.0,
+          "y": 18.5
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": 22.75
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": 20.75
+        }
+      }
+    },
+    {
+      "id": "dump_to_ladder_3",
+      "branch_type": "dump_to_ladder",
+      "source_circle_id": "dump_3",
+      "target_circle_id": "ladder_3",
+      "top": {
+        "p0": {
+          "x": 22.0,
+          "y": 11.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": 11.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 8.25
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 8.25
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 22.0,
+          "y": 3.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": 3.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": 6.25
+        },
+        "p3": {
+          "x": 45.0,
+          "y": 6.25
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 18.0,
+          "y": 7.5
+        },
+        "p1": {
+          "x": 28.0,
+          "y": 7.5
+        },
+        "p2": {
+          "x": 36.0,
+          "y": 7.25
+        },
+        "p3": {
+          "x": 46.0,
+          "y": 7.25
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 22.0,
+          "y": 11.5
+        },
+        "source_bottom": {
+          "x": 22.0,
+          "y": 3.5
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": 8.25
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": 6.25
+        }
+      }
+    },
+    {
+      "id": "dump_to_ladder_4",
+      "branch_type": "dump_to_ladder",
+      "source_circle_id": "dump_4",
+      "target_circle_id": "ladder_4",
+      "top": {
+        "p0": {
+          "x": 22.0,
+          "y": -3.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": -3.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -6.25
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -6.25
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 22.0,
+          "y": -11.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": -11.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -8.25
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -8.25
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 18.0,
+          "y": -7.5
+        },
+        "p1": {
+          "x": 28.0,
+          "y": -7.5
+        },
+        "p2": {
+          "x": 36.0,
+          "y": -7.25
+        },
+        "p3": {
+          "x": 46.0,
+          "y": -7.25
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 22.0,
+          "y": -3.5
+        },
+        "source_bottom": {
+          "x": 22.0,
+          "y": -11.5
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": -6.25
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": -8.25
+        }
+      }
+    },
+    {
+      "id": "dump_to_ladder_5",
+      "branch_type": "dump_to_ladder",
+      "source_circle_id": "dump_5",
+      "target_circle_id": "ladder_5",
+      "top": {
+        "p0": {
+          "x": 22.0,
+          "y": -18.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": -18.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -20.75
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -20.75
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 22.0,
+          "y": -26.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": -26.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -22.75
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -22.75
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 18.0,
+          "y": -22.5
+        },
+        "p1": {
+          "x": 28.0,
+          "y": -22.5
+        },
+        "p2": {
+          "x": 36.0,
+          "y": -21.75
+        },
+        "p3": {
+          "x": 46.0,
+          "y": -21.75
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 22.0,
+          "y": -18.5
+        },
+        "source_bottom": {
+          "x": 22.0,
+          "y": -26.5
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": -20.75
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": -22.75
+        }
+      }
+    },
+    {
+      "id": "dump_to_ladder_6",
+      "branch_type": "dump_to_ladder",
+      "source_circle_id": "dump_6",
+      "target_circle_id": "ladder_6",
+      "top": {
+        "p0": {
+          "x": 22.0,
+          "y": -33.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": -33.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -35.25
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -35.25
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 22.0,
+          "y": -41.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": -41.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -37.25
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -37.25
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 18.0,
+          "y": -37.5
+        },
+        "p1": {
+          "x": 28.0,
+          "y": -37.5
+        },
+        "p2": {
+          "x": 36.0,
+          "y": -36.25
+        },
+        "p3": {
+          "x": 46.0,
+          "y": -36.25
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 22.0,
+          "y": -33.5
+        },
+        "source_bottom": {
+          "x": 22.0,
+          "y": -41.5
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": -35.25
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": -37.25
+        }
+      }
+    },
+    {
+      "id": "dump_to_ladder_7",
+      "branch_type": "dump_to_ladder",
+      "source_circle_id": "dump_7",
+      "target_circle_id": "ladder_7",
+      "top": {
+        "p0": {
+          "x": 22.0,
+          "y": -48.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": -48.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -49.75
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -49.75
+        }
+      },
+      "bottom": {
+        "p0": {
+          "x": 22.0,
+          "y": -56.5
+        },
+        "p1": {
+          "x": 32.0,
+          "y": -56.5
+        },
+        "p2": {
+          "x": 35.0,
+          "y": -51.75
+        },
+        "p3": {
+          "x": 45.0,
+          "y": -51.75
+        }
+      },
+      "centerline": {
+        "p0": {
+          "x": 18.0,
+          "y": -52.5
+        },
+        "p1": {
+          "x": 28.0,
+          "y": -52.5
+        },
+        "p2": {
+          "x": 36.0,
+          "y": -50.75
+        },
+        "p3": {
+          "x": 46.0,
+          "y": -50.75
+        }
+      },
+      "construction_rectangle": {
+        "source_top": {
+          "x": 22.0,
+          "y": -48.5
+        },
+        "source_bottom": {
+          "x": 22.0,
+          "y": -56.5
+        },
+        "target_top": {
+          "x": 45.0,
+          "y": -49.75
+        },
+        "target_bottom": {
+          "x": 45.0,
+          "y": -51.75
+        }
+      }
+    }
+  ],
+  "field_stubs": [
+    {
+      "id": "feed_to_snake_0_stub_top",
+      "branch_id": "feed_to_snake_0",
+      "p0": {
+        "x": -12.6,
+        "y": 49.0
+      },
+      "p1": {
+        "x": 0.0,
+        "y": 49.0
+      }
+    },
+    {
+      "id": "feed_to_snake_0_stub_bottom",
+      "branch_id": "feed_to_snake_0",
+      "p0": {
+        "x": -12.6,
+        "y": 41.0
+      },
+      "p1": {
+        "x": 0.0,
+        "y": 41.0
+      }
+    },
+    {
+      "id": "feed_to_snake_1_stub_top",
+      "branch_id": "feed_to_snake_1",
+      "p0": {
+        "x": -8.6,
+        "y": 34.0
+      },
+      "p1": {
+        "x": 4.0,
+        "y": 34.0
+      }
+    },
+    {
+      "id": "feed_to_snake_1_stub_bottom",
+      "branch_id": "feed_to_snake_1",
+      "p0": {
+        "x": -8.6,
+        "y": 26.0
+      },
+      "p1": {
+        "x": 4.0,
+        "y": 26.0
+      }
+    },
+    {
+      "id": "feed_to_snake_2_stub_top",
+      "branch_id": "feed_to_snake_2",
+      "p0": {
+        "x": -8.6,
+        "y": 19.0
+      },
+      "p1": {
+        "x": 4.0,
+        "y": 19.0
+      }
+    },
+    {
+      "id": "feed_to_snake_2_stub_bottom",
+      "branch_id": "feed_to_snake_2",
+      "p0": {
+        "x": -8.6,
+        "y": 11.0
+      },
+      "p1": {
+        "x": 4.0,
+        "y": 11.0
+      }
+    },
+    {
+      "id": "feed_to_snake_3_stub_top",
+      "branch_id": "feed_to_snake_3",
+      "p0": {
+        "x": -8.6,
+        "y": 4.0
+      },
+      "p1": {
+        "x": 4.0,
+        "y": 4.0
+      }
+    },
+    {
+      "id": "feed_to_snake_3_stub_bottom",
+      "branch_id": "feed_to_snake_3",
+      "p0": {
+        "x": -8.6,
+        "y": -4.0
+      },
+      "p1": {
+        "x": 4.0,
+        "y": -4.0
+      }
+    },
+    {
+      "id": "feed_to_snake_4_stub_top",
+      "branch_id": "feed_to_snake_4",
+      "p0": {
+        "x": -8.6,
+        "y": -11.0
+      },
+      "p1": {
+        "x": 4.0,
+        "y": -11.0
+      }
+    },
+    {
+      "id": "feed_to_snake_4_stub_bottom",
+      "branch_id": "feed_to_snake_4",
+      "p0": {
+        "x": -8.6,
+        "y": -19.0
+      },
+      "p1": {
+        "x": 4.0,
+        "y": -19.0
+      }
+    },
+    {
+      "id": "feed_to_snake_5_stub_top",
+      "branch_id": "feed_to_snake_5",
+      "p0": {
+        "x": -8.6,
+        "y": -26.0
+      },
+      "p1": {
+        "x": 4.0,
+        "y": -26.0
+      }
+    },
+    {
+      "id": "feed_to_snake_5_stub_bottom",
+      "branch_id": "feed_to_snake_5",
+      "p0": {
+        "x": -8.6,
+        "y": -34.0
+      },
+      "p1": {
+        "x": 4.0,
+        "y": -34.0
+      }
+    },
+    {
+      "id": "feed_to_snake_6_stub_top",
+      "branch_id": "feed_to_snake_6",
+      "p0": {
+        "x": -12.6,
+        "y": -41.0
+      },
+      "p1": {
+        "x": 0.0,
+        "y": -41.0
+      }
+    },
+    {
+      "id": "feed_to_snake_6_stub_bottom",
+      "branch_id": "feed_to_snake_6",
+      "p0": {
+        "x": -12.6,
+        "y": -49.0
+      },
+      "p1": {
+        "x": 0.0,
+        "y": -49.0
+      }
+    },
+    {
+      "id": "dump_to_ladder_0_stub_top",
+      "branch_id": "dump_to_ladder_0",
+      "p0": {
+        "x": 9.4,
+        "y": 56.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": 56.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_0_stub_bottom",
+      "branch_id": "dump_to_ladder_0",
+      "p0": {
+        "x": 9.4,
+        "y": 48.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": 48.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_1_stub_top",
+      "branch_id": "dump_to_ladder_1",
+      "p0": {
+        "x": 9.4,
+        "y": 41.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": 41.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_1_stub_bottom",
+      "branch_id": "dump_to_ladder_1",
+      "p0": {
+        "x": 9.4,
+        "y": 33.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": 33.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_2_stub_top",
+      "branch_id": "dump_to_ladder_2",
+      "p0": {
+        "x": 9.4,
+        "y": 26.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": 26.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_2_stub_bottom",
+      "branch_id": "dump_to_ladder_2",
+      "p0": {
+        "x": 9.4,
+        "y": 18.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": 18.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_3_stub_top",
+      "branch_id": "dump_to_ladder_3",
+      "p0": {
+        "x": 9.4,
+        "y": 11.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": 11.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_3_stub_bottom",
+      "branch_id": "dump_to_ladder_3",
+      "p0": {
+        "x": 9.4,
+        "y": 3.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": 3.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_4_stub_top",
+      "branch_id": "dump_to_ladder_4",
+      "p0": {
+        "x": 9.4,
+        "y": -3.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": -3.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_4_stub_bottom",
+      "branch_id": "dump_to_ladder_4",
+      "p0": {
+        "x": 9.4,
+        "y": -11.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": -11.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_5_stub_top",
+      "branch_id": "dump_to_ladder_5",
+      "p0": {
+        "x": 9.4,
+        "y": -18.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": -18.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_5_stub_bottom",
+      "branch_id": "dump_to_ladder_5",
+      "p0": {
+        "x": 9.4,
+        "y": -26.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": -26.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_6_stub_top",
+      "branch_id": "dump_to_ladder_6",
+      "p0": {
+        "x": 9.4,
+        "y": -33.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": -33.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_6_stub_bottom",
+      "branch_id": "dump_to_ladder_6",
+      "p0": {
+        "x": 9.4,
+        "y": -41.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": -41.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_7_stub_top",
+      "branch_id": "dump_to_ladder_7",
+      "p0": {
+        "x": 9.4,
+        "y": -48.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": -48.5
+      }
+    },
+    {
+      "id": "dump_to_ladder_7_stub_bottom",
+      "branch_id": "dump_to_ladder_7",
+      "p0": {
+        "x": 9.4,
+        "y": -56.5
+      },
+      "p1": {
+        "x": 22.0,
+        "y": -56.5
+      }
+    }
+  ]
+}

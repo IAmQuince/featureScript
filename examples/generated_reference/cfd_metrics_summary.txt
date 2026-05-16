@@ -1,0 +1,23 @@
+Tributary Generator CFD-Screening Metrics
+=========================================
+
+These are first-pass geometric proxies only; they are not a CFD solution.
+Use them to compare layouts before exporting geometry to CAD/meshing tools.
+
+branch_count: 15
+circle_count: 32
+total_centerline_length: 554.30816
+total_planform_area_proxy: 2771.5408
+total_wetted_surface_area_proxy: 6651.698
+average_boundary_width: 5
+min_boundary_width: 2
+max_boundary_width: 8
+min_centerline_gap: 6.7766826
+hydraulic_diameter_average: 1.6666667
+resistance_proxy_total_parallel: 0.29855959
+resistance_proxy_cv: 0.2603709
+length_cv: 0.2603709
+max_curvature_proxy: 0.0025775262
+symmetry_mean_error: 0
+symmetry_max_error: 0
+symmetry_unpaired_count: 0

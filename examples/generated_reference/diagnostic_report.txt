@@ -1,0 +1,17 @@
+Tributary Generator Python Preview
+==================================
+
+Circles: 32
+Branches: 15
+JSON: examples/generated_reference/tributary_layout.json
+SVG: examples/generated_reference/tributary_layout.svg
+CSV: examples/generated_reference/tributary_branch_samples.csv
+Pairing table: examples/generated_reference/branch_pairing_table.csv
+PNG: examples/generated_reference/tributary_layout.png
+Onshape variable table: examples/generated_reference/onshape_variable_table.txt
+CFD metrics JSON: examples/generated_reference/cfd_metrics.json
+CFD branch metrics CSV: examples/generated_reference/cfd_branch_metrics.csv
+CFD metrics summary: examples/generated_reference/cfd_metrics_summary.txt
+
+Status: PASS - Python geometry preview completed.
+Note: feature_scripts/tributary_generator.fs still requires Onshape-side validation.

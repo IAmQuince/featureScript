@@ -1,0 +1,48 @@
+{
+  "config": {
+    "channel_num_snakes": 8,
+    "manifold_length": 120.0,
+    "manifold_reduction": 0.0,
+    "ladder_width": 2.0,
+    "feed_dump_offset": 18.0,
+    "tributary_offset": 28.0,
+    "feed_diameter": 8.0,
+    "dump_diameter": 8.0,
+    "snake_width": 2.0,
+    "d_snake_m1": 8.0,
+    "d_snake_m2": 8.0,
+    "d_ladder_m1": 8.0,
+    "d_ladder_m2": 8.0,
+    "top_bottom_feed_left_shift": true,
+    "channel_depth": 1.0,
+    "pairing_mode": "y_aligned_physical"
+  },
+  "lfo_slots": [
+    {
+      "enabled": true,
+      "parameter": "d_ladder_m1",
+      "waveform": "sin",
+      "amplitude": 4.0,
+      "frequency_hz": 0.1,
+      "phase_degrees": 0.0,
+      "center_offset": 0.0
+    },
+    {
+      "enabled": true,
+      "parameter": "tributary_offset",
+      "waveform": "triangle",
+      "amplitude": 6.0,
+      "frequency_hz": 0.05,
+      "phase_degrees": 90.0,
+      "center_offset": 0.0
+    }
+  ],
+  "view": {
+    "show_labels": true,
+    "show_centerlines": true,
+    "show_grid": true,
+    "show_controls": false,
+    "panel_dock": "right",
+    "show_symmetry_axis": true
+  }
+}

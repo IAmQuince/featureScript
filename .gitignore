@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.venv/
+venv/
+build/
+dist/
+
+# Test/cache artifacts
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Runtime/generated reports
+reports/*
+!reports/.gitkeep
+!reports/verification_run/
+!reports/verification_run/**
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+
+# Local/private CAD exports
+*.stl
+*.step
+*.stp
+*.x_t
+*.x_b
+*.sldprt
+*.ipt

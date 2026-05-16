@@ -1,0 +1,15 @@
+# Onshape variable table
+# Units: use your Part Studio's intended length unit for dimensional values.
+Channel_Num_Snakes = 8
+Manifold_Length = 120.0
+Manifold_Reduction = 0.0
+Ladder_Width = 2.0
+FeedDump_Offset = 18.0
+Tributary_Offset = 28.0
+Feed_Diameter = 8.0
+Dump_Diameter = 8.0
+Snake_Width = 2.0
+d_snake_M1 = 10.0
+d_snake_M2 = 10.0
+d_ladder_M1 = 10.0
+d_ladder_M2 = 10.0
